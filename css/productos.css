@@ -1,0 +1,100 @@
+.productos{
+    margin: 2rem 5rem;
+}
+.productos__head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.productos__head h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+.productos__head div{
+    display: flex;
+    align-items: center;
+}
+.productos__head div button, .productos__head div i{
+    color: #2a7ae4;
+    background-color: inherit;
+    border-style: none;
+}
+.productos__lista{
+    display: flex;
+    justify-content: space-between;
+}
+.productos__item{
+    line-height: 1.5;
+}
+.productos__item button{
+    padding: 0;
+    background-color: inherit;
+    border-style: none;
+    color: #2a7ae4;
+    font-weight: 700;
+}
+#imgp1{
+    background-image: url("../img/productos/producto1.svg");
+}
+#imgp2{
+    background-image: url("../img/productos/producto2.svg");
+}
+#imgp3{
+    background-image: url("../img/productos/producto3.svg");
+}
+#imgp4{
+    background-image: url("../img/productos/producto4.svg");
+}
+#imgp5{
+    background-image: url("../img/productos/producto5.svg");
+}
+#imgp6{
+    background-image: url("../img/productos/producto6.svg");
+}
+/*Consolas*/
+#imgc1{
+    background-image: url("../img/consolas/consola1.svg");
+}
+#imgc2{
+    background-image: url("../img/consolas/consola2.svg");
+}
+#imgc3{
+    background-image: url("../img/consolas/consola3.svg");
+}
+#imgc4{
+    background-image: url("../img/consolas/consola4.svg");
+}
+#imgc5{
+    background-image: url("../img/consolas/consola5.svg");
+}
+#imgc6{
+    background-image: url("../img/consolas/consola6.svg");
+}
+/*diversos*/
+#imgd1{
+    background-image: url("../img/diversos/d1.svg");
+}
+#imgd2{
+    background-image: url("../img/diversos/d2.svg");
+}
+#imgd3{
+    background-image: url("../img/diversos/d3.svg");
+}
+#imgd4{
+    background-image: url("../img/diversos/d4.svg");
+}
+#imgd5{
+    background-image: url("../img/diversos/d5.svg");
+}
+#imgd6{
+    background-image: url("../img/diversos/d6.svg");
+}
+.imgp{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: gray;
+    width: 13.5rem;
+    height: 10rem;   
+}

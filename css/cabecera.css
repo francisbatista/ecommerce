@@ -1,0 +1,41 @@
+.cabecera{
+    margin: 1rem 5rem;
+}
+
+.cabecera__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cabecera__logo{
+    display: flex;
+    align-items: center;
+    width: 31rem;
+    justify-content: space-between;
+}
+.cabecera__logo input{
+    height: 2rem;
+    width: 17rem;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #f5f5f5;
+    outline: none;
+    padding-left: 1.8rem;
+    font-size: 14px;
+}
+.cabecera__btn-login{
+    width: 10rem;
+    height: 2rem;
+    border: 1px solid #2a7ae4;
+    color: #2a7ae4;
+   
+}
+.cabecera__input-wrapper{
+    position: relative;
+}
+.cabecera__input-wrapper i{
+    position: absolute;
+    margin-top: .6rem;
+    margin-left: .5rem;
+    color: gray;
+}

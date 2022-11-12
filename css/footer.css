@@ -1,0 +1,59 @@
+.footer{
+    background-color: #EAF2FD;
+}
+.footer__contenido{
+    margin: 2rem 5rem 0;
+    display: flex;
+    padding: 2rem 0;
+    justify-content: space-between;
+}
+.footer__formulario{
+    display: flex;
+    flex-direction: column;
+    height: 11rem;
+    justify-content: space-between;
+
+}
+.footer__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 11rem;
+}
+.footer__list-item a{
+    text-decoration: none;
+    color: #464646;
+    font-size: 16px;
+}
+.footer__formulario input{
+    width: 35rem;
+    outline: none;
+    border: 0;
+}
+.footer__formulario input:nth-child(3){
+    height: 4rem;
+}
+.footer__formulario input:nth-child(2){
+    height: 1.5rem;
+}
+.footer__formulario button{
+    width: fit-content;
+    padding: 10px;
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+    border-style: none;
+}
+#logoAluraGeek{
+    background-image: url('../img/logo.svg');
+    width: 176px;
+    height: 51px;
+}
+.pie{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    margin: 2rem;
+    height: 2.5rem;
+    text-align: center;
+}

@@ -1,0 +1,34 @@
+.portada{
+    display: flex;
+    background-image: url("../img/banner1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 18rem;
+    align-items: flex-end;
+}
+.portada__banner{
+    margin: 1rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 9rem;
+}
+.portada__banner h1{
+    font-size: 52px;
+    width: fit-content;
+    color: #ffffff;
+    font-weight: 700;
+}
+.portada__banner, .portada__banner p, .portada__banner button{
+    width: fit-content;
+    color: #ffffff;
+}
+.portada__banner p{
+    font-weight: 700;
+}
+.portada__banner button{
+    background-color: #2a7ae4;
+    padding: 16px;
+    border-style: none;
+}
