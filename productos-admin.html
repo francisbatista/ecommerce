@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <!--<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Raleway:wght@300&display=swap"
-        rel="stylesheet">
-    <script src="https://kit.fontawesome.com/f3e58ff627.js" crossorigin="anonymous"></script>-->
+    <title>Productos</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/cabecera.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/productos-admin.css">
 </head>
+
 <body>
     <main>
         <header>
@@ -26,19 +25,23 @@
                             <input type="text" placeholder="¿Qué deseas buscar?">
                         </div>
                     </div>
+                    <div>
+                        <button class="cabecera__btn-login">Menu Administrador</button>
+                    </div>
                 </div>
             </div>
         </header>
-
-        <section class="login-formulario">
+        <section class="form-container">
             <form action="">
-                <p>Iniciar Sesión</p>
-                <input type="email" placeholder="Escriba su correo electrónico">
-                <input type="password" placeholder="Escriba su contraseña">
-                <button>Entrar</button>
+                <h1>Agregar nuevo producto</h1>
+                <input type="text" placeholder="URL de la imagen">
+                <input type="text" placeholder="Categoría">
+                <input type="text" placeholder="Nombre del producto">
+                <input type="text" placeholder="Precio del producto">
+                <input type="text" placeholder="Descripción del producto">
+                <button type="submit">Agregar producto</button>
             </form>
         </section>
-
         <section class="footer">
             <div class="footer__contenido">
                 <p id="logoAluraGeek"></p>
@@ -74,7 +77,9 @@
             <p>Desarrollado por Francis Batista</p>
             <p>2022</p>
         </footer>
+
     </main>
     <script src="scripts/general.js"></script>
 </body>
+
 </html>
